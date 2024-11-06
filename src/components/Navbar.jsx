@@ -70,8 +70,11 @@ function Navbar() {
 
       <div className="h-full w-full px-5 lg:px-10 flex items-center transition-all duration-500 justify-between text-sm lg:text-xl text-white">
         <div className="font-bold text-4xl h-full py-2 flex gap-5 items-center">
+          <a href='#hero' className='flex gap-5'>
+
           <img src='/dsd-logo.png' className='h-9' alt='logo' />
           DSD
+          </a>
         </div>
         <div className='flex flex-col gap-1 lg:hidden' onClick={()=>setNavOpen(prev => !navOpen)}>
           <div className='w-6 h-1 bg-white rounded-full'></div>

@@ -11,7 +11,7 @@ function Contact() {
           </div>
           <div className='flex flex-col bg-black/40 rounded-2xl border border-white/20 gap-2 p-5'>
             <div className='font-semibold  text-gray-500 text-2xl'>Bog'lanish</div>
-          <div>+998994684919 <span className='w-10 inline-block'></span> +998911499913</div>
+          <div>+998994684919 <span className='w-5 inline-block'></span> +998911499913</div>
           </div>
           <div className='flex flex-col bg-black/40 rounded-2xl border border-white/20 gap-2 p-5'>
             <div className='font-semibold  text-gray-500 text-2xl'>Manzil</div>

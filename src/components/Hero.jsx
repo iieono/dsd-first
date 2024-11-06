@@ -20,7 +20,7 @@ function Hero() {
   }, []);
 
   return (
-    <div className="section w-full relative min-h-screen flex items-center justify-center">
+    <div id="hero" className="section w-full relative min-h-screen flex items-center justify-center">
       <div className="h-full w-full flex flex-col items-center gap-10">
         <div className="hero-title text-3xl text-pretty lg:text-7xl font-semibold px-5 lg:px-0 lg:w-2/3 text-center">
           Refresh your Room and Make Awesome Interior Design With Us!
@@ -28,9 +28,9 @@ function Hero() {
         <div className="hero-subtitle px-5 lg:px-0 lg:w-2/3 jetbrains text-xs lg:text-base text-center">
           2024 yil 20 fevralda asos solingan Dominant Soft Development IT Company - bu sizning barcha IT sohasidagi muammolariga yechim topadigan jamoangiz. Bizning kompaniyamiz tez rivojlanayotgan va innovatsiyalarga tayyor bo‘lgan misli ko‘rilmagan kuchli mutaxassislar jamoasidan iborat.
         </div>
-        <div className="hero-button bg-black/30 border border-navy px-8 lg:px-12 lg:mt-16 py-3 lg:py-6 text-2xl rounded-full shadow-2xl shadow-navy cursor-pointer">
+        <a href="#contact" className="hero-button bg-black/30 border border-navy px-8 lg:px-12 lg:mt-16 py-3 lg:py-6 text-2xl rounded-full shadow-2xl shadow-navy cursor-pointer">
           Contact us
-        </div>
+        </a>
       </div>
     </div>
   );
