@@ -6,6 +6,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
 
 
 .work-sans {
@@ -21,4 +24,10 @@
     border-color: #4ade80;
     /* Example color */
     border-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #4ade80 10px, #4ade80 15px) 1;
+}
+.app{
+    scroll-snap-type: y proximity;
+}
+.section{
+    scroll-snap-align: center;
 }

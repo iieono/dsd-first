@@ -29,7 +29,7 @@ function Services() {
   }, []);
 
   return (
-    <div className="section w-full py-10 lg:py-0 min-h-screen relative flex items-center justify-center">
+    <div id='services' className="section w-full py-10 lg:py-0 min-h-screen relative flex items-center justify-center">
       <div className="w-full h-full items-center gap-5 justify-center flex flex-col lg:flex-row">
         <div className="flex gap-5 lg:gap-12 w-full items-center lg:items-end h-1/2 flex-col relative">
           {/* First Card */}
@@ -39,7 +39,7 @@ function Services() {
           >
             <div className="flex flex-col lg:w-2/3 gap-5 z-10 p-5">
               <div className="text-4xl font-semibold">
-                Web<br /> development
+                Web<br /> dasturlar
               </div>
               <div className="text-xl text-gray-500">
                 Biz korporativ veb-saytlardan veb-ilovalarga qadar yuqori sifatli veb-saytlarni ishlab chiqamiz
@@ -57,7 +57,7 @@ function Services() {
           >
             <div className="flex flex-col lg:w-2/3 gap-5 z-10 p-5">
               <div className="text-4xl font-semibold">
-                CRM <br /> systems
+                CRM <br /> tizimlari
               </div>
               <div className="text-xl text-gray-500">
                 Biznes va jarayonlarni avtomatlashtirish, qog'oz ishlarini 100% ga kamaytiradigan elektron boshqaruv tizimlarini rivojlantirish
@@ -102,7 +102,7 @@ function Services() {
             className="h-80 w-4/5 bg-black/40 rounded-3xl border border-white/20 flex shadow-2xl relative shadow-navy/60"
           >
             <div className="flex flex-col lg:w-2/3 gap-5 z-10 p-5">
-              <div className="text-4xl font-semibold">Mobile apps</div>
+              <div className="text-4xl font-semibold">Mobil ilovalar</div>
               <div className="text-xl text-gray-500">
                 Har qanday murakkablikdagi mobil ilovalarni ishlab chiqish va texnik qo'llab-quvvatlash
               </div>
