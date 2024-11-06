@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.work-sans {
+    font-family: "Work Sans", sans-serif;
+}
+.jetbrains {
+    font-family: "JetBrains Mono", serif;
+}
+
+.custom-dashed-border {
+    border-style: dashed;
+    border-width: 4px;
+    border-color: #4ade80;
+    /* Example color */
+    border-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #4ade80 10px, #4ade80 15px) 1;
+}
