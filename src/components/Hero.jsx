@@ -5,9 +5,9 @@ import { useGSAP } from "@gsap/react";
 function Hero() {
   useGSAP(() => {
     // GSAP reveal animation for text and button
-    gsap.from(".hero-title", { opacity: 0, y: 50, duration: 1, stagger: 0.2, delay: 1 });
-    gsap.from(".hero-subtitle", { opacity: 0, y: 50, duration: 1, delay: 1.5 });
-    gsap.from(".hero-button", { opacity: 0, y: 50, scale: 0.5, duration: 1, delay: 2 });
+    gsap.from(".hero-title", { opacity: 0, y: 50, duration: 0.6, stagger: 0.2, delay: 0.5 });
+    gsap.from(".hero-subtitle", { opacity: 0, y: 50, duration: 0.6, delay: 1 });
+    gsap.from(".hero-button", { opacity: 0, y: 50, scale: 0.6, duration: 0.6, delay: 1.5 });
 
     // GSAP hover effect for the button
     const button = document.querySelector(".hero-button");
@@ -29,7 +29,7 @@ function Hero() {
           2024 yil 20 fevralda asos solingan Dominant Soft Development IT Company - bu sizning barcha IT sohasidagi muammolariga yechim topadigan jamoangiz. Bizning kompaniyamiz tez rivojlanayotgan va innovatsiyalarga tayyor bo‘lgan misli ko‘rilmagan kuchli mutaxassislar jamoasidan iborat.
         </div>
         <a href="#contact" className="hero-button bg-black/30 border border-navy px-8 lg:px-12 lg:mt-16 py-3 lg:py-6 text-2xl rounded-full shadow-2xl shadow-navy cursor-pointer">
-          Contact us
+          Biz bilan bog'laning
         </a>
       </div>
     </div>

@@ -62,10 +62,10 @@ function Navbar() {
   return (
     <nav className="fixed top-10 lg:top-10 left-1/2 w-3/5 lg:w-1/2 min-h-16 transition-all duration-500 z-20 flex-col -translate-x-1/2 bg-white/10 backdrop-blur-lg shadow-sm lg:shadow-2xl shadow-white/40 lg:rounded-full flex items-center justify-center">
 
-      <div className={`${navOpen ? 'max-h-96 px-8 py-8 gap-5' : 'max-h-0 opacity-0 p-0 gap-0'} transition-all duration-500 w-full overflow-hidden text-2xl flex flex-col  items-center justify-center text-center  `}>
-          <a href='#about'>About us</a>
-          <a href='#services'>Services</a>
-          <a href='#contact'>Contact</a>
+      <div className={`${navOpen ? 'max-h-96 px-8 py-8 gap-5' : 'max-h-0 opacity-0 p-0 gap-0'} transition-all duration-500 w-full overflow-hidden text-xl lg:text-2xl flex flex-col  items-center justify-center text-center  `}>
+          <a href='#about'>Biz haqimizda</a>
+          <a href='#services'>Xizmatlar</a>
+          <a href='#contact'>bog'lanish</a>
       </div>
 
       <div className="h-full w-full px-5 lg:px-10 flex items-center transition-all duration-500 justify-between text-sm lg:text-xl text-white">
@@ -84,10 +84,10 @@ function Navbar() {
         <ul className=" hidden lg:flex space-x-16">
           <li>
             <a href='#about'>
-              About us
+              Biz haqimizda
               </a></li>
-          <li><a href='#services'>Services</a></li>
-          <li><a href='#contact'>Contact</a></li>
+          <li><a href='#services'>Xizmatlar</a></li>
+          <li><a href='#contact'>Bog'lanish</a></li>
         </ul>
       </div>
 

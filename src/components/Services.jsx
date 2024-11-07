@@ -45,7 +45,7 @@ function Services() {
                 Biz korporativ veb-saytlardan veb-ilovalarga qadar yuqori sifatli veb-saytlarni ishlab chiqamiz
               </div>
             </div>
-            <div className="absolute right-0 text-9xl lg:text-[16rem] flex items-end justify-end h-full leading-none opacity-40 -z-1 text-end text-navy font-semibold px-5 py-8 lg:py-0 blur-sm">
+            <div className="absolute right-0 text-9xl lg:text-[16rem] flex items-end select-none justify-end h-full leading-none opacity-40 -z-1 text-end text-navy font-semibold px-5 py-8 lg:py-0 blur-sm">
               {'</>'}
             </div>
           </div>

@@ -15,9 +15,9 @@ function Footer() {
       </div>
       <div>
         <div className='hidden lg:flex gap-3 items-end text-xl flex-col'>
-          <div><a href='#about'>About</a></div>
-          <div><a href='#services'>Services</a></div>
-          <div><a href='#contact'>Contact</a></div>
+          <div><a href='#about'>Biz haqimizda</a></div>
+          <div><a href='#services'>Xizmatlar</a></div>
+          <div><a href='#contact'>Bog'lanish</a></div>
         </div>
       </div>
     </div>

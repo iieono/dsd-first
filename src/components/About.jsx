@@ -31,9 +31,9 @@ function About() {
     <div id='about' ref={sectionRef} className='section w-full bg-tea min-h-screen lg:h-screen relative'>
       <div className='w-full h-full flex flex-col lg:flex-row justify-evenly items-center gap-10 py-20 lg:py-0 px-5 lg:px-20'>
         <div className='w-full h-full flex items-start gap-3 justify-center flex-col reveal'>
-          <div className='text-navy text-lg lg:text-2xl uppercase'>Dizayn + Rivojlantirish + SEO</div>
-          <div className='text-black text-3xl lg:text-6xl'>B2B Veb-saytlarini O'zgartirish Uchun Yaratilgan</div>
-          <div className='text-white px-4 text-sm lg:text-xl bg-black py-1 rounded-full mt-5'>Qo'ng'iroqni rejalashtirish</div>
+          <div className='text-navy text-lg lg:text-2xl uppercase'>Dominant Soft Development</div>
+          <div className='text-black text-3xl lg:text-6xl'>IT sohasidagi muammolariga yechim topadigan jamoangiz.</div>
+          <a href='#contact' className='text-white px-4 text-sm lg:text-xl bg-black py-1 rounded-full mt-5'>Qo'ng'iroq qiling</a>
         </div>
         <div className='w-full h-full flex lg:px-5 text-black flex-col items-center justify-center gap-20'>
           <div className='flex border-l-2 px-2 border-black flex-col gap-3 reveal'>
